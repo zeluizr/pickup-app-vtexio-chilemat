@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+}
+
+.content {
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+}
+
+@media (max-width: 1025px) {
+  .content {
+    font-size: 1.1rem;
+  }
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: #007338;
+}
+
+.text {
+  color: #363636;
+}

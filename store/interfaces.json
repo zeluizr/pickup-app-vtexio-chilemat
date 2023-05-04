@@ -1,0 +1,7 @@
+{
+  "pickup": {
+    "component": "PickupStore",
+    "allowed": "*",
+    "composition": "children"
+  }
+}
