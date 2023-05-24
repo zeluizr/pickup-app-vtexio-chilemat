@@ -53,46 +53,13 @@ const PickupStore = ({ isActive }) => {
 };
 
 const messages = defineMessages({
-  title: {
-    defaultMessage: "Full Banner",
-  },
-  description: {
-    defaultMessage: "Carrousel de imágenes con enlace y texto alternativo",
-  },
+  title: { defaultMessage: "Pickup Store" },
+  description: { defaultMessage: "Pickup Store" },
 });
 
 PickupStore.schema = {
   title: messages.title.defaultMessage,
   description: messages.description.defaultMessage,
-  type: "object",
-  properties: {
-    isActive: { title: "Activar", type: "boolean", default: true },
-    images: {
-      title: "Imágenes",
-      type: "array",
-      items: {
-        type: "object",
-        properties: {
-          image: {
-            title: "Imagen de escritorio",
-            type: "string",
-            widget: { "ui:widget": "image-uploader" },
-          },
-          mobileImage: {
-            title: "Imagen móvil",
-            type: "string",
-            widget: { "ui:widget": "image-uploader" },
-          },
-          url: { title: "Enlace", type: "string", default: "#" },
-          alt: {
-            title: "Texto alternativo",
-            type: "string",
-            default: "Imagen",
-          },
-        },
-      },
-    },
-  },
 };
 
 export default PickupStore;

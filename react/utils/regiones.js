@@ -1,0 +1,18 @@
+export const REGIONES = [
+  { id: 1, name: "Región de Tarapacá (I)" },
+  { id: 2, name: "Región de Antofagasta (II)" },
+  { id: 3, name: "Región de Atacama (III)" },
+  { id: 4, name: "Región de Coquimbo (IV)" },
+  { id: 5, name: "Región de Valparaíso (V)" },
+  { id: 6, name: "Región del Libertador General Bernardo O’Higgins (VI)" },
+  { id: 7, name: "Región del Maule (VII)" },
+  { id: 8, name: "Región del Biobío (VIII)" },
+  { id: 9, name: "Región de La Araucanía (IX)" },
+  { id: 10, name: "Región de Los Lagos (X)" },
+  { id: 11, name: "Región de Aysén del General Carlos Ibáñez del Campo (XI)" },
+  { id: 12, name: "Región de Magallanes y la Antártica Chilena (XII)" },
+  { id: 13, name: "Región Metropolitana" },
+  { id: 14, name: "Región de Los Ríos (XIV)" },
+  { id: 15, name: "Región de Arica y Parinacota (XV)" },
+  { id: 16, name: "Región del Ñuble (XVI)" },
+];

@@ -14,10 +14,92 @@
 
 .modal {
   background-color: white;
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem 0;
 }
 
 .modalContent {
-  padding: 1rem;
+  padding: 1.875rem;
   z-index: 1001;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalClose {
+  width: 28px;
+  height: 28px;
+  background: transparent;
+  border: 2px solid #c2c2c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #c2c2c2;
+  font-weight: bolder;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 1002;
+  cursor: pointer;
+}
+
+.modalTitle {
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-align: center;
+  color: #373737;
+  margin: 0;
+}
+.modalContext {
+  font-size: 1.125rem;
+  margin: 2rem 0;
+  color: #4f4f4f;
+  width: 100%;
+  max-width: 430px;
+}
+
+.modalSelect {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 430px;
+}
+
+.modalSelect label {
+  font-size: 1rem;
+  margin-bottom: 0.625rem;
+  color: #6f6f6f;
+  font-weight: 300;
+}
+
+.modalSelect select {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  border: 2px solid #c2c2c2;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236B7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E");
+  background-position: right 0.5rem center;
+  background-repeat: no-repeat;
+  background-size: 1.5em 1.5em;
+  padding: 0 2.5rem 0 1rem;
+  appearance: none;
+}
+
+.modalButton {
+  background: #007338;
+  height: 50px;
+  width: 250px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
 }
