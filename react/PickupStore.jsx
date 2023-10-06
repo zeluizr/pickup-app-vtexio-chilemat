@@ -5,7 +5,7 @@ import { Modal } from "./components/Modal";
 
 import "./styles/PickupStore.css";
 
-const CSS_HANDLES = ["container", "content", "icon", "text"];
+const CSS_HANDLES = ["container", "content", "icon", "text", "modal"];
 
 const PickupStore = ({ isActive }) => {
   const handles = useCssHandles(CSS_HANDLES);
@@ -42,7 +42,7 @@ const PickupStore = ({ isActive }) => {
               />
             </g>
           </svg>
-          <span className={`${handles.text} text`}>
+          <span className={`${handles.text} ${handles.modal} text`}>
             <strong>Ingresar</strong> tu ubicacion
           </span>
         </button>
