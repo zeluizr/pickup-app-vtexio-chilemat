@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { defineMessages } from "react-intl";
 import { useCssHandles } from "vtex.css-handles";
 import { Modal } from "./components/Modal";
@@ -53,8 +53,8 @@ const PickupStore = ({ isActive }) => {
 };
 
 const messages = defineMessages({
-  title: { defaultMessage: "Pickup Store" },
-  description: { defaultMessage: "Pickup Store" },
+  title: { defaultMessage: "Pickup Point" },
+  description: { defaultMessage: "Pickup Point" },
 });
 
 PickupStore.schema = {
